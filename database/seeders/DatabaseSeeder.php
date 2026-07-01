@@ -13,6 +13,12 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        {
+        // Llamamos al seeder del administrador
+        $this->call([
+            AdminUserSeeder::class,
+        ]);
+        }
         // 1. GESTIÓN DE IMÁGENES ESTÁTICAS (FRONTEND -> PUBLIC)
         // Definimos rutas de origen y destino
         $logoSource = database_path('seeders/images/fronted/logo1.png');

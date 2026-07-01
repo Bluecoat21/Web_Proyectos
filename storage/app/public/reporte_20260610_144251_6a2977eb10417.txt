@@ -1,0 +1,35 @@
+**Informe Profesional**
+
+**Resumen Ejecutivo**
+
+El presente informe presenta los resultados de una investigación que evalúa la calidad de las aplicaciones web desarrolladas con frameworks modernos. La evaluación se centró en analizar el rendimiento y la mantenibilidad del software, utilizando herramientas como Selenium para simular cargas masivas de datos y medir el tiempo de respuesta del servidor.
+
+**Objetivos Detectados**
+
+* Evaluar la calidad de las aplicaciones web desarrolladas con frameworks modernos
+* Identificar los factores que afectan negativamente la mantenibilidad del software
+* Proporcionar recomendaciones para mejorar la calidad y la eficiencia del desarrollo web
+
+**Temas Principales**
+
+1. Calidad del software: Se analizaron las características clave de la calidad del software, como la arquitectura limpia (MVC) y el control de errores.
+2. Rendimiento: Se evaluó el rendimiento del software mediante pruebas automatizadas con Selenium.
+3. Mantenibilidad: Se analizó cómo la arquitectura limpia y el control de errores afectan negativamente la mantenibilidad del proyecto a largo plazo.
+
+**Análisis Técnico**
+
+La investigación utilizó un enfoque cuantitativo, instalando herramientas como Selenium en entornos locales para analizar el rendimiento de las peticiones HTTP y las respuestas del servidor ante cargas masivas de datos. Los resultados mostraron que la implementación de una arquitectura limpia (como MVC) reduce drasticamente los problemas de cache y duplicidad de código, mejorando la mantenibilidad del proyecto a largo plazo.
+
+**Conclusiones**
+
+La investigación concluyó que la calidad del software es un factor clave en el desarrollo web. La implementación de una arquitectura limpia y el control de errores son fundamentales para mejorar la mantenibilidad del proyecto y reducir los problemas de cache y duplicidad de código.
+
+**Recomendaciones**
+
+1. Implementar una arquitectura limpia (como MVC) en el desarrollo web.
+2. Realizar pruebas automatizadas con herramientas como Selenium para evaluar el rendimiento del software.
+3. Controlar errores y duplicidad de código para mejorar la mantenibilidad del proyecto.
+
+**Referencias**
+
+Pérez, J. (2023). Evaluación de la calidad del software en el desarrollo web. [Informe académico].

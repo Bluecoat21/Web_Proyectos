@@ -11,7 +11,7 @@ $total = computed(function () {
 $whatsappUrl = computed(function () {
     $nombres = ['tesis' => 'Tesis', 'auditoria' => 'Auditoría', 'software' => 'Software', 'analisis' => 'Análisis'];
     $mensaje = "Cotización Proyecto -X: {$nombres[$this->tipo_trabajo]} | Nombre: " . ($this->nombre ?: 'Anon');
-    return "https://wa.me/51900000000?text=" . urlencode($mensaje);
+    return "https://wa.me/51913258623?text=" . urlencode($mensaje);
 });
 ?>
 

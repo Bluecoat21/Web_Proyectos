@@ -1,0 +1,11 @@
+Resumen Ejecutivo:
+
+El presente trabajo de investigación tiene como objetivo principal evaluar la calidad de las aplicaciones webs usando frameworks modernos.
+
+Metodoología:
+
+Se utilizo un enfoque cuantitativo y se instalaron herramientas como Selenium en entornos locales para analizar el rendimiento de las peticiones HTTP y las respuestas del servidor ante cargas masivas de datos.
+
+Conclusiones:
+
+Se concluye que implementar una arquitectura limpia  (como MVC) reduce drasticamente los problemas de cache y duplicidad de codigo, mejorando la mantenibilidad del proyecto a largo plazo.

@@ -6,7 +6,6 @@
     <title>Proyecto -X | Consultoría Académica y Auditoría</title>
     
     @livewireStyles
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     
@@ -216,8 +215,20 @@
                 </ul>
             </div>
         </div>
-        <div class="text-center mt-12 text-gray-600 text-xs">
-            &copy; {{ date('Y') }} Proyecto -X. Todos los derechos reservados.
+        
+        <!-- SECCIÓN DE COPYRIGHT MODIFICADA: Enlace sutil para la administración -->
+        <div class="max-w-7xl mx-auto px-6 mt-12 flex flex-col sm:flex-row justify-between items-center gap-4 text-gray-600 text-xs">
+            <div>
+                &copy; {{ date('Y') }} Proyecto -X. Todos los derechos reservados.
+            </div>
+            <div>
+                <a href="{{ route('admin.login') }}" class="hover:text-orange-500 transition-colors duration-200 uppercase tracking-widest font-semibold flex items-center gap-1.5">
+                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+                    </svg>
+                    Gestión Interna
+                </a>
+            </div>
         </div>
     </footer>
 
