@@ -22,13 +22,17 @@ Route::post('/admin/logout', [AuthController::class, 'logout'])->name('admin.log
 // ZONA PROTEGIDA: Solo administradores autenticados
 Route::middleware(['auth'])->group(function () {
     
-    // Módulo Portafolio
-    Route::get('/admin/subir', function () { return view('admin.subir'); })->name('admin.subir');
+    // Módulo Portafolio (CRUD)
+    Route::get('/admin/subir', [PortafolioController::class, 'adminIndex'])->name('admin.subir');
     Route::post('/portafolio/guardar', [PortafolioController::class, 'store'])->name('portafolio.store');
+    Route::get('/admin/portafolio/{id}/editar', [PortafolioController::class, 'edit'])->name('portafolio.edit');
+    Route::put('/admin/portafolio/{id}', [PortafolioController::class, 'update'])->name('portafolio.update');
+    Route::delete('/admin/portafolio/{id}', [PortafolioController::class, 'destroy'])->name('portafolio.destroy');
+    
+    // Livewire opcional (cambiado ligeramente de nombre para evitar colisión si se usa)
     Route::get('/admin/subir-livewire', SubirProyecto::class)->name('admin.subir.livewire');
 
     // Módulo Analizador Académico IA
-    // Nos aseguramos de que termine exactamente en ->name('admin.analizador.index')
     Route::get('/admin/analizador', [AnalizadorController::class, 'index'])->name('admin.analizador.index');
     Route::post('/admin/analizador/procesar', [AnalizadorController::class, 'procesar'])->name('admin.analizador.procesar');
 });
