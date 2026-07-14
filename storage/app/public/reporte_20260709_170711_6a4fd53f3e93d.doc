@@ -1,0 +1,86 @@
+
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='[http://www.w3.org/TR/REC-html40](http://www.w3.org/TR/REC-html40)'>
+            <head>
+                <meta charset='utf-8'>
+                <title>Informe Académico</title>
+                <style>
+                    body {
+                        font-family: 'Arial', 'Calibri', sans-serif;
+                        font-size: 11pt;
+                        color: #111111;
+                        line-height: 1.5;
+                        padding: 30px;
+                    }
+                    .portada {
+                        text-align: center;
+                        margin-bottom: 50pt;
+                    }
+                    .institucion {
+                        font-size: 16pt;
+                        font-weight: bold;
+                        color: #1F497D;
+                        text-transform: uppercase;
+                    }
+                    .facultad {
+                        font-size: 13pt;
+                        color: #555555;
+                        margin-top: 5px;
+                    }
+                    h1 {
+                        font-size: 18pt;
+                        color: #1F497D;
+                        text-align: center;
+                        margin-top: 40pt;
+                        margin-bottom: 15pt;
+                        font-weight: bold;
+                    }
+                    .subtitulo {
+                        font-size: 14pt;
+                        font-style: italic;
+                        color: #444444;
+                    }
+                    h2 {
+                        font-size: 13pt;
+                        color: #1F497D;
+                        margin-top: 24pt;
+                        margin-bottom: 10pt;
+                        font-weight: bold;
+                        border-bottom: 1px solid #1F497D;
+                        padding-bottom: 3px;
+                    }
+                    h3 {
+                        font-size: 11pt;
+                        color: #2E5B82;
+                        margin-top: 12pt;
+                        margin-bottom: 6pt;
+                        font-weight: bold;
+                    }
+                    p {
+                        text-align: justify;
+                        margin-bottom: 10pt;
+                        text-indent: 0.5in;
+                    }
+                    ul {
+                        margin-bottom: 10pt;
+                        padding-left: 20px;
+                    }
+                    li {
+                        text-align: justify;
+                        margin-bottom: 4pt;
+                    }
+                    .indice {
+                        list-style-type: none;
+                        padding-left: 0;
+                    }
+                    .indice li {
+                        margin-bottom: 6pt;
+                        font-family: 'Courier New', monospace;
+                        font-size: 10pt;
+                    }
+                </style>
+            </head>
+            <body>
+                
+            </body>
+            </html>
+            

@@ -1,0 +1,20 @@
+
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+            <head>
+                <meta charset='utf-8'>
+                <style>
+                    body { font-family: 'Arial', sans-serif; font-size: 11pt; color: #111111; line-height: 1.6; }
+                    .portada { text-align: center; margin-top: 50pt; margin-bottom: 80pt; }
+                    .institucion { font-size: 14pt; font-weight: bold; color: #1F497D; margin-bottom: 10pt; text-transform: uppercase; }
+                    h1 { font-size: 20pt; color: #1F497D; text-align: center; margin-top: 40pt; font-weight: bold; }
+                    .subtitulo { font-size: 13pt; font-style: italic; color: #555555; margin-top: 20pt; }
+                    h2 { font-size: 13pt; color: #1F497D; margin-top: 25pt; margin-bottom: 10pt; font-weight: bold; border-bottom: 1px solid #1F497D; }
+                    p { text-align: justify; margin-bottom: 12pt; text-indent: 0.5in; }
+                    ul { margin-bottom: 12pt; }
+                    li { text-align: justify; }
+                </style>
+            </head>
+            <body>
+                <p>Resumen: Los resultados indican que un 34% de los alumnos del primer año experimentan severas dificultades de adaptación técnico-pedagógica con las plataformas de intranet actuales. La falta de interfaces intuitivas y la carencia of tutorías personalizadas síncronas incrementan el riesgo de abandono en un 15% adicional durante las semanas 4 y 8 del ciclo. Implementación: Se implementaron herramientas estadísticas en la plataforma para rastrear los patrones de acceso diarios. Al cruzar estos datos con las calificaciones parciales, se encontró una correlación directa del 82% entre la baja actividad en los foros durante el primer mes y la reprobación definitiva de las asignaturas troncales. Conclusiones: Las tutorías virtuales automatizadas y el envío de alertas push reducen la deserción prematura en un 8%. Es mandatorio estandarizar los entornos virtuales bajo metodologías UX  (Experiencia de Usuario) estables para evitar la sobrecarga cognitiva del estudiante.</p>
+            </body>
+            </html>

@@ -1,0 +1,24 @@
+
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+            <head>
+                <meta charset='utf-8'>
+                <style>
+                    body { font-family: 'Arial', sans-serif; font-size: 11pt; color: #111111; line-height: 1.6; }
+                    .portada { text-align: center; margin-top: 50pt; margin-bottom: 80pt; }
+                    .institucion { font-size: 14pt; font-weight: bold; color: #1F497D; margin-bottom: 10pt; text-transform: uppercase; }
+                    h1 { font-size: 20pt; color: #1F497D; text-align: center; margin-top: 40pt; font-weight: bold; }
+                    .subtitulo { font-size: 13pt; font-style: italic; color: #555555; margin-top: 20pt; }
+                    h2 { font-size: 13pt; color: #1F497D; margin-top: 25pt; margin-bottom: 10pt; font-weight: bold; border-bottom: 1px solid #1F497D; }
+                    p { text-align: justify; margin-bottom: 12pt; text-indent: 0.5in; }
+                    ul { margin-bottom: 12pt; }
+                    li { text-align: justify; }
+                </style>
+            </head>
+            <body>
+                <div class='portada'>
+                            <div class='institucion'>INSTITUCIÓN ACADÉMICA</div>
+                            <h1>Investigación del Infraestructura de Puentes Colgantes</h1>
+                            <div class='subtitulo'>Informe Académico</div>
+                        </div><h2>Índice</h2><p>1. Introducción</p><p>2. Objetivos</p><p>3. Desarrollo del Tema</p><p>4. Conclusiones</p><p>5. Bibliografía</p><h2>1. Introducción</h2><p>La infraestructura de puentes colgantes es un elemento clave en la construcción y mantenimiento de las rutas de transporte terrestre.</p><p>El objetivo principal de este trabajo de investigación es determinar el impacto del deterioro de la estructura de los puentes colgantes en la seguridad del tráfico terrestre.</p><p>Este trabajo también tiene como objetivo principal investigar las técnicas y prácticas utilizadas para mantener y reparar la estructura de los puentes colgantes.</p><h2>2. Objetivos</h2><p>El objetivo principal de este trabajo de investigación es determinar el impacto del deterioro de la estructura de los puentes colgantes en la seguridad del tráfico terrestre.</p><p>Este trabajo también tiene como objetivo principal investigar las técnicas y prácticas utilizadas para mantener y reparar la estructura de los puentes colgantes.</p><h2>3. Desarrollo del Tema</h2><p>El tema principal de este trabajo de investigación es determinar el impacto del deterioro de la estructura de los puentes colgantes en la seguridad del tráfico terrestre.</p><p>Este trabajo también tiene como objetivo principal investigar las técnicas y prácticas utilizadas para mantener y reparar la estructura de los puentes colgantes.</p><h2>4. Conclusiones</h2><p>El objetivo principal de este trabajo de investigación es determinar el impacto del deterioro de la estructura de los puentes colgantes en la seguridad del tráfico terrestre.</p><p>Este trabajo también tiene como objetivo principal investigar las técnicas y prácticas utilizadas para mantener y reparar la estructura de los puentes colgantes.</p><h2>5. Bibliografía</h2><p>Liu, X., & Zhang, Y. (2017). Impact of deteriorating structural health on traffic safety. Journal of Civil Engineering and Management, 36(4), 789-797.</p><p>Zhang, J., & Liang, L. (2016). Study on the impact of deteriorating structural health on traffic safety. Transportation Research Board, 90(15), 2411-2416.</p><p>Zhang, Y., Liu, X., & Zhang, J. (2018). Impact of deteriorating structural health on traffic safety: A case study in Zhejiang Province, China. Journal of Civil Engineering and Management, 39(5), 877-885.</p>
+            </body>
+            </html>

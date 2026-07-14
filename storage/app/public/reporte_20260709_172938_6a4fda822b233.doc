@@ -1,0 +1,24 @@
+
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+            <head>
+                <meta charset='utf-8'>
+                <style>
+                    body { font-family: 'Arial', sans-serif; font-size: 11pt; color: #111111; line-height: 1.6; }
+                    .portada { text-align: center; margin-top: 50pt; margin-bottom: 80pt; }
+                    .institucion { font-size: 14pt; font-weight: bold; color: #1F497D; margin-bottom: 10pt; text-transform: uppercase; }
+                    h1 { font-size: 20pt; color: #1F497D; text-align: center; margin-top: 40pt; font-weight: bold; }
+                    .subtitulo { font-size: 13pt; font-style: italic; color: #555555; margin-top: 20pt; }
+                    h2 { font-size: 13pt; color: #1F497D; margin-top: 25pt; margin-bottom: 10pt; font-weight: bold; border-bottom: 1px solid #1F497D; }
+                    p { text-align: justify; margin-bottom: 12pt; text-indent: 0.5in; }
+                    ul { margin-bottom: 12pt; }
+                    li { text-align: justify; }
+                </style>
+            </head>
+            <body>
+                <div class='portada'>
+                            <div class='institucion'>INSTITUCIÓN ACADÉMICA</div>
+                            <h1>Investigación sobre la Creación de Sitios Web en Laravel</h1>
+                            <div class='subtitulo'>Informe Académico</div>
+                        </div><h2>Introducción</h2><p>En este informe académico se investigará la creación de sitios web en Laravel. La investigación se centrará en los aspectos técnicos y de diseño relacionados con la creación de sitios web en Laravel.</p><h2>Objetivos</h2><p>Los objetivos principales de esta investigación se centraron en:</p><p>1. Identificar y comprender los conceptos básicos relacionados con la creación de sitios web en Laravel.</p><p>2. Realizar un análisis detallado y profundo sobre los aspectos técnicos y de diseño relacionados con la creación de sitios web en Laravel.</p><p>3. Proporcionar un informe académico detallado basado en las investigaciones realizadas en el ámbito de la creación de sitios web en Laravel.</p><h2>Desarrollo del Tema</h2><p>En este aspecto, se realizaron varias investigaciones y análisis detallados sobre los aspectos técnicos y de diseño relacionados con la creación de sitios web en Laravel. Además, se realizaron联系实际操作的机会， lo que permitió a los investigadores realizar un análisis detallado y profundo sobre los aspectos técnicos y de diseño relacionados con la creación de sitios web en Laravel.</p><h2>Conclusiones</h2><p>En este informe académico se investigaron la creación de sitios web en Laravel. La investigación se centró en los aspectos técnicos y de diseño relacionados con la creación de sitios web en Laravel. Además, se realizaron联系实际操作的机会, lo que permitió a los investigadores realizar un análisis detallado y profundo sobre los aspectos técnicos y de diseño relacionados con la creación de sitios web en Laravel.</p><h2>Bibliografía</h2><p>1. Laravel Documentation. <https://laravel.com/docs/></p><p>2. PHP documentation. <https://www.php.net/manual/en/></p><p>3. Web development tutorials. <https://www.tutorialspoint.com/web-development-tutorials.htm></p><p>4. HTML documentation. <https://www.w3.org/html/></p><p>5. CSS documentation. <https://developer.mozilla.org/en-US/docs/Web/CSS/></p>
+            </body>
+            </html>

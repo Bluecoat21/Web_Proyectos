@@ -1,0 +1,20 @@
+
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+            <head>
+                <meta charset='utf-8'>
+                <style>
+                    body { font-family: 'Arial', sans-serif; font-size: 11pt; color: #111111; line-height: 1.6; }
+                    .portada { text-align: center; margin-top: 50pt; margin-bottom: 80pt; }
+                    .institucion { font-size: 14pt; font-weight: bold; color: #1F497D; margin-bottom: 10pt; text-transform: uppercase; }
+                    h1 { font-size: 20pt; color: #1F497D; text-align: center; margin-top: 40pt; font-weight: bold; }
+                    .subtitulo { font-size: 13pt; font-style: italic; color: #555555; margin-top: 20pt; }
+                    h2 { font-size: 13pt; color: #1F497D; margin-top: 25pt; margin-bottom: 10pt; font-weight: bold; border-bottom: 1px solid #1F497D; }
+                    p { text-align: justify; margin-bottom: 12pt; text-indent: 0.5in; }
+                    ul { margin-bottom: 12pt; }
+                    li { text-align: justify; }
+                </style>
+            </head>
+            <body>
+                <p>Título: Evaluación del Impacto de las Herramientas Digitales en la Retención Universitaria.</p><p>Autor: Dr. Carlos Mendoza, Unidad de Investigación Académica.</p><p>Resumen:</p><p>El presente estudio analiza los índices de deserción académica durante los primeros tres semestres en las facultades asesinos. Se aplicó una muestra cuantitativa a 450 estudiantes evaluando plataformas virtuales y el impacto del acompañamiento tecnológico.</p><p>Objetivos:</p><p>1. Identificar los factores críticos de abandono en entornos de aprendizaje virtual.</p><p>2. Medir la efectividad del software de seguimiento analítico en la detección temprana de estudiantes en riesgo académico.</p><p>3. Diseñar talleres de inducción tecnológica obligatorios para los alumnos de primer ingreso.</p><p>Conclusiónes:</p><p>Las tutorías virtuales automatizadas y el envío de alertas push reducen la deserción prematura en un 8%. Es mandatorio estandarizar los entornos virtuales bajo metodologías UX (Experiencia de Usuario) estables para evitar la sobrecarga cognitiva del estudiante.</p><p>Recomendaciones:</p><p>1. Actualizar de forma inmediata el plan de capacitación docente en entornos virtuales.</p><p>2. Desplegar módulos de alertas tempranas automatizadas en la intranet antes de la mitad del periodo académico.</p><p>3. Diseñar talleres de inducción tecnológica obligatorios para los alumnos de primer ingreso.</p>
+            </body>
+            </html>

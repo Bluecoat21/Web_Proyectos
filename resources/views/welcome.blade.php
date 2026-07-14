@@ -127,69 +127,189 @@
             </div>
         </section>
 
-        <section class="mb-32">
-            <div x-data="{ open: false }" class="fixed bottom-6 right-6 z-50">
-                <button @click="open = !open" class="bg-orange-600 hover:bg-orange-700 text-white p-4 rounded-full shadow-2xl transition-all transform hover:rotate-12 flex items-center justify-center">
-                    <svg x-show="!open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z"></path></svg>
-                    <svg x-show="open" class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
-                </button>
+<section class="mb-32">
+    <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
+        <div>
+            <h2 class="text-4xl font-black text-gray-800 uppercase tracking-tighter">
+                Nuestros Entregables
+            </h2>
+            <p class="text-gray-500 mt-2">
+                Calidad profesional demostrada en cada documento y software.
+            </p>
+        </div>
 
-                <div x-show="open" 
-                     x-transition:enter="transition ease-out duration-300"
-                     x-transition:enter-start="opacity-0 translate-y-10 scale-95"
-                     x-transition:enter-end="opacity-100 translate-y-0 scale-100"
-                     class="absolute bottom-20 right-0 w-[350px] md:w-[450px] max-h-[80vh] overflow-y-auto">
-                    @livewire('calculador-presupuesto')
+        <a href="{{ Route::has('portafolio.index') ? route('portafolio.index') : '#' }}"
+            class="px-8 py-3 border-2 border-orange-500 text-orange-600 font-bold rounded-xl hover:bg-orange-500 hover:text-white transition duration-300">
+            Ver Portafolio Completo
+        </a>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- CARD 1 -->
+        <div
+            class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+
+            <div class="relative h-72 overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80"
+                    class="w-full h-full object-cover group-hover:scale-110 duration-700">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-end p-6">
+
+                    <div
+                        class="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center mb-3">
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6 text-white"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9 12h6M9 16h6M9 8h6M5 4h14v16H5z"/>
+
+                        </svg>
+
+                    </div>
+
                 </div>
+
             </div>
-        </section>
 
-        <section class="mb-32">
-            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
-                <div>
-                    <h2 class="text-4xl font-black text-gray-800 uppercase tracking-tighter">Nuestros Entregables</h2>
-                    <p class="text-gray-500 mt-2">Calidad profesional demostrada en cada documento y software.</p>
-                </div>
-                <a href="{{ Route::has('portafolio.index') ? route('portafolio.index') : '#' }}" 
-                    class="px-8 py-3 border-2 border-orange-500 text-orange-600 font-bold rounded-xl hover:bg-orange-500 hover:text-white transition-all flex items-center gap-2">
-                    Ver Portafolio Completo
-                </a>
+            <div class="p-6">
+
+                <h3 class="text-xl font-black text-gray-800 uppercase">
+                    Auditoría Documental
+                </h3>
+
+                <p class="text-gray-500 mt-3 leading-relaxed">
+
+                    Revisión profunda de estructura, citación,
+                    normas APA, coherencia científica y formato
+                    profesional.
+
+                </p>
+
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="group bg-white rounded-3xl shadow-md overflow-hidden border border-gray-100">
-                    <div class="h-60 bg-gray-200 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=800&q=80" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition-transform">
-                    </div>
-                    <div class="p-6">
-                        <h5 class="font-bold text-gray-800 text-lg uppercase">Auditoría Documental</h5>
-                        <p class="text-gray-500 text-sm mt-2">Revisión profunda de estructura, citación y coherencia científica.</p>
-                    </div>
-                </div>
-                <div class="group bg-white rounded-3xl shadow-md overflow-hidden border border-gray-100">
-                    <div class="h-60 bg-gray-200 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1551288049-bbbda536639a?auto=format&fit=crop&w=800&q=80" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition-transform">
-                    </div>
-                    <div class="p-6">
-                        <h5 class="font-bold text-gray-800 text-lg uppercase">Análisis y Modelado</h5>
-                        <p class="text-gray-500 text-sm mt-2">Procesamiento de datos estadísticos y técnicos con validez académica.</p>
-                    </div>
-                </div>
-                <div class="group bg-white rounded-3xl shadow-md overflow-hidden border border-gray-100">
-                    <div class="h-60 bg-gray-200 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" 
-                             class="w-full h-full object-cover group-hover:scale-105 transition-transform">
-                    </div>
-                    <div class="p-6">
-                        <h5 class="font-bold text-gray-800 text-lg uppercase">Software Especializado</h5>
-                        <p class="text-gray-500 text-sm mt-2">Desarrollo de herramientas y simuladores personalizados para proyectos.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
 
+        <!-- CARD 2 -->
+
+        <div
+            class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+
+            <div class="relative h-72 overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+                    class="w-full h-full object-cover group-hover:scale-110 duration-700">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-end p-6">
+
+                    <div
+                        class="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center mb-3">
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6 text-white"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M11 19V6m0 0L7 10m4-4l4 4"/>
+
+                        </svg>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="p-6">
+
+                <h3 class="text-xl font-black text-gray-800 uppercase">
+                    Análisis y Modelado
+                </h3>
+
+                <p class="text-gray-500 mt-3 leading-relaxed">
+
+                    Procesamiento de datos con MATLAB,
+                    Python, SPSS, ArcGIS y modelos
+                    estadísticos de investigación.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+
+        <div
+            class="group bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500">
+
+            <div class="relative h-72 overflow-hidden">
+
+                <img
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80"
+                    class="w-full h-full object-cover group-hover:scale-110 duration-700">
+
+                <div
+                    class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition duration-500 flex flex-col justify-end p-6">
+
+                    <div
+                        class="w-12 h-12 rounded-full bg-orange-500 flex items-center justify-center mb-3">
+
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            class="w-6 h-6 text-white"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor">
+
+                            <path stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M9.75 17L15 12l-5.25-5"/>
+
+                        </svg>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="p-6">
+
+                <h3 class="text-xl font-black text-gray-800 uppercase">
+                    Software Especializado
+                </h3>
+
+                <p class="text-gray-500 mt-3 leading-relaxed">
+
+                    Desarrollo de aplicaciones, simuladores,
+                    dashboards y herramientas
+                    personalizadas para proyectos.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
     </main>
 
     <footer class="bg-gray-900 text-white py-16">

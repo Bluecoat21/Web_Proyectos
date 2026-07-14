@@ -1,0 +1,102 @@
+
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+            <head>
+                <meta charset='utf-8'>
+                <title>Informe Académico Automatizado</title>
+                <style>
+                    @page {
+                        size: 8.5in 11in; /* Tamaño Carta */
+                        margin: 1.0in 1.0in 1.0in 1.0in;
+                    }
+                    body { 
+                        font-family: 'Arial', sans-serif; 
+                        font-size: 11pt; 
+                        color: #111111; 
+                        line-height: 1.6; 
+                    }
+                    .portada { 
+                        text-align: center; 
+                        margin-top: 50pt;
+                        margin-bottom: 50pt;
+                    }
+                    .institucion { 
+                        font-size: 14pt; 
+                        font-weight: bold; 
+                        color: #1F497D; 
+                        text-transform: uppercase; 
+                    }
+                    .facultad { 
+                        font-size: 12pt; 
+                        color: #333333; 
+                        margin-top: 5pt;
+                    }
+                    h1 { 
+                        font-size: 18pt; 
+                        color: #1F497D; 
+                        text-align: center; 
+                        margin-top: 60pt; 
+                        margin-bottom: 20pt; 
+                        font-weight: bold; 
+                        text-transform: uppercase;
+                    }
+                    .subtitulo { 
+                        font-size: 13pt; 
+                        font-style: italic; 
+                        color: #555555; 
+                        font-weight: bold;
+                    }
+                    .ciudad-fecha { 
+                        font-size: 11pt; 
+                        margin-top: 120pt; 
+                        font-weight: bold; 
+                    }
+                    h2 { 
+                        font-size: 14pt; 
+                        color: #1F497D; 
+                        margin-top: 20pt; 
+                        margin-bottom: 15pt; 
+                        font-weight: bold; 
+                        border-bottom: 2px solid #1F497D; 
+                        text-transform: uppercase; 
+                    }
+                    h3 { 
+                        font-size: 12pt; 
+                        color: #1F497D; 
+                        margin-top: 15pt; 
+                        margin-bottom: 8pt; 
+                        font-weight: bold; 
+                    }
+                    p { 
+                        text-align: justify; 
+                        margin-bottom: 12pt; 
+                        text-indent: 0.5in; 
+                    }
+                    ul, ol { 
+                        margin-bottom: 12pt; 
+                        padding-left: 20pt; 
+                    }
+                    li { 
+                        text-align: justify; 
+                        margin-bottom: 6pt; 
+                    }
+                    
+                    /* Fuerza el salto de página físico al abrirse en Microsoft Word */
+                    .salto-pagina { 
+                        page-break-before: always; 
+                        clear: both; 
+                    }
+                </style>
+            </head>
+            <body>
+                <div class='portada'>
+                            <div class='institucion'>INSTITUTO / UNIVERSIDAD</div>
+                            <div class='facultad'>Facultad o Escuela Profesional</div>
+                            <br><br><br><br>
+                            <h1>PÁGINA 1: Portada e Índice</h1>
+                            <br><br>
+                            <div class='subtitulo'>Informe Académico</div>
+                            <br><br><br><br>
+                            <div class='ciudad-fecha'>Arequipa – Perú, 2026</div>
+                        </div><p>Índice del Informe de Investigación: Creación de Sitios Web con Laravel</p><ul><li>Introducción y Objetivos .............................................................. 3</li></ul><ul><li>Marco Teórico y Conceptos Fundamentales ............................................... 4</li></ul><ul><li>Desarrollo Técnico del Tema .................................................................. 5</li></ul><ul><li>Resultados, Discusión y Conclusiones ......................................................... 7</li></ul><ul><li>Bibliografía ................................................................................... 10</li></ul><h1>PÁGINA 2: Introducción y Objetivos</h1><p>La creación de sitios web es un proceso fundamental en la era digital. Con el aumento de la demanda de presencia online, los desarrolladores web deben ser capaces de crear sitios web seguros, escalables y eficientes. Laravel es uno de los frameworks más populares para construir aplicaciones web en PHP, conocido por su simplificación del proceso de desarrollo y su capacidad para manejar grandes cantidades de tráfico.</p><ul><li>Objetivo General: Investigar la creación de sitios web utilizando el framework Laravel.</li></ul><p>+ Objetivos Específicos:</p><ol><li>Analizar las características y ventajas de utilizar Laravel en el desarrollo de sitios web.</li></ol><ol><li>Describir los pasos básicos para crear un sitio web con Laravel.</li></ol><ol><li>Investigar la seguridad y escalabilidad de los sitios web creados con Laravel.</li></ol><ol><li>Evaluar la eficiencia del framework en la creación de sitios web.</li></ol><h1>PÁGINA 3: Marco Teórico y Conceptos Fundamentales</h1><p>La creación de sitios web es un proceso que implica varios conceptos fundamentales, como la programación, el diseño y la seguridad. Laravel se basa en el lenguaje de programación PHP y utiliza el modelo-visualizador-controlador (MVC) para organizar el código.</p><ul><li>Conceptos clave:</li></ul><p>+ MVC: Un patrón de arquitectura que separa el código en tres capas: modelo, vista y controlador.</p><p>+ Eloquent: El ORM (Object-Relational Mapping) de Laravel que permite interactuar con bases de datos.</p><p>+ Routing: La capacidad de Laravel para manejar rutas URL y asignarlas a controladores y acciones.</p><h1>PÁGINA 4: Desarrollo Técnico del Tema</h1><p>Para crear un sitio web con Laravel, se necesitan seguir los siguientes pasos:</p><ol><li>Instalar Composer y Laravel.</li></ol><ol><li>Crear una nueva aplicación Laravel utilizando el comando `composer create-project --prefer-dist laravel/laravel proyecto`.</li></ol><ol><li>Configurar la base de datos y establecer las credenciales de acceso.</li></ol><ol><li>Crear los modelos, vistas y controladores necesarios para el sitio web.</li></ol><ol><li>Definir las rutas URL y asignarlas a controladores y acciones.</li></ol><ol><li>Implementar la seguridad y la escalabilidad del sitio web.</li></ol><h1>PÁGINA 5: Resultados, Discusión y Conclusiones</h1><p>La creación de sitios web con Laravel implica varios beneficios, como la simplificación del proceso de desarrollo y la capacidad para manejar grandes cantidades de tráfico. Los resultados obtenidos muestran que Laravel es un framework escalable y seguro para crear sitios web.</p><p>[DISCUSIÓN]</p><p>La discusión crítica de los resultados muestra que la creación de sitios web con Laravel es un proceso efectivo para desarrollar aplicaciones web seguras y escalables.</p><ul><li>La creación de sitios web con Laravel es un proceso efectivo para desarrollar aplicaciones web seguras y escalables.</li></ul><ul><li>El framework ofrece varias características y ventajas, como la simplificación del proceso de desarrollo y la capacidad para manejar grandes cantidades de tráfico.</li></ul><ul><li>La seguridad y la escalabilidad son fundamentales para el éxito de cualquier sitio web.</li></ul><h1>PÁGINA 6: Bibliografía</h1><ol><li>Laravel Documentation. (2022). Getting Started with Laravel. Retrieved from <https://laravel.com/docs/8.x/installation></li></ol><ol><li>PHP Documentation. (2022). PHP: The Hypertext Preprocessor. Retrieved from <https://www.php.net/manual/en/intro.php></li></ol><ol><li>Taylor, T. (2017). Laravel: The Framework for Building Robust and Scalable Web Applications. Packt Publishing.</li></ol><ol><li>Khaled, A. (2020). Mastering Laravel 8: Build robust and scalable web applications with Laravel. Packt Publishing.</li></ol>
+            </body>
+            </html>

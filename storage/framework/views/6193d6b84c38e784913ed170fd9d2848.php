@@ -57,7 +57,7 @@
                 EXPLORAR SERVICIOS
             </a>
             
-            <a href="https://wa.me/tu-numero" 
+            <a href="https://wa.me/51913258623" 
                class="group border-2 border-gray-700 hover:border-green-600 py-5 px-12 rounded-xl font-bold transition-all text-lg flex items-center gap-3">
                 <span class="group-hover:text-green-500 transition-colors uppercase tracking-wider">CONTACTO DIRECTO</span>
             </a>

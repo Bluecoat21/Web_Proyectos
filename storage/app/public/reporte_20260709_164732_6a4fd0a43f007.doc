@@ -1,0 +1,70 @@
+
+            <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='[http://www.w3.org/TR/REC-html40](http://www.w3.org/TR/REC-html40)'>
+            <head>
+                <meta charset='utf-8'>
+                <title>Informe de Auditoría</title>
+                <style>
+                    body {
+                        font-family: 'Calibri', sans-serif;
+                        font-size: 11pt;
+                        color: #333333;
+                        line-height: 1.6;
+                    }
+                    h1 {
+                        font-size: 22pt;
+                        color: #1F497D;
+                        text-align: center;
+                        margin-top: 10pt;
+                        margin-bottom: 24pt;
+                        font-weight: bold;
+                    }
+                    h2 {
+                        font-size: 14pt;
+                        color: #365F91;
+                        margin-top: 20pt;
+                        margin-bottom: 12pt;
+                        font-weight: bold;
+                        border-bottom: 2px solid #365F91;
+                        padding-bottom: 4px;
+                    }
+                    p {
+                        text-align: justify;
+                        margin-bottom: 12pt;
+                    }
+                    ul {
+                        margin-bottom: 12pt;
+                        padding-left: 20px;
+                    }
+                    li {
+                        text-align: justify;
+                        margin-bottom: 6pt;
+                    }
+                </style>
+            </head>
+            <body>
+                <!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Reporte de Auditoría Académica</title>
+</head>
+<body>
+	<h1>REPORTES DE AUDITORÍA ACADÉMICA</h1>
+	<p>[Escribe aquí una introducción global y formal del reporte basado en el texto recibido]</p>
+	<h2>1. Resumen Ejecutivo</h2>
+	<p>[Enumera u organiza los objetivos principales que identificaste en el texto]</p>
+	<h2>2. Objetivos Detectados</h2>
+	<p>[Enumera u organiza los objetivos principales que identificaste en el texto]</p>
+	<h2>3. Temas Principales</h2>
+	<p>[Analiza los temas principales abordados en el documento]</p>
+	<h2>4. Análisis Téchnico</h2>
+	<p>[Realiza un desglose crítico y técnico profundo de los hallazgos]</p>
+	<h2>5. Conclusiones</h2>
+	<p>[Describe conclusiones sólidas numeradas o en párrafos limpios]</p>
+	<h2>6. Recomendaciones</h2>
+	<p>[Escribe un plan de acciones correctivas y de mejora sugeridas]</p>
+</body>
+</html>
+            </body>
+            </html>
+            
